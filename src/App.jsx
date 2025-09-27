@@ -24,7 +24,6 @@ export default function App() {
       setError(err);
     }
   };
-  console.log(weather.main);
   // Background colors based on weather type
   const getBackground = () => {
     if (!weather) return "from-blue-400 to-indigo-600";
